@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e2e1e7;
+    font-family: 'Gupter', serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #004c4c;
+}
+
+header {
+    color: white;
+    width: 100%;
+    background-color: #464f57;
+    height: 100px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4%;
+}
+
+fieldset {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+legend {
+    font-size: 24px;
+    font-style: italic;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+}
+
+fieldset input {
+    width: 70%;
+    height: 30px;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+#entrees-epargne, #depenses {
+    width: 40%;
+}
